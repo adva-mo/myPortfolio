@@ -8,8 +8,8 @@
   --bg-color: #fcfcfc;
   --primary-color: #a2798f;
   --secondary-color: #8caba8;
-  --primary-shadow: #d7c6cf;
-  --secondary-shadow: #a17a69;
+  --primary-shadow: #d6d3d3;
+  --secondary-shadow:#b3b3b3;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -17,23 +17,48 @@
 }
 
 .burger-menu {
-    color: var(--primary-color);
-    font-size: 2rem;
-    border: 0;
-    background-color: transparent;
-    cursor: pointer;
-    display: none;
-  }
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
 
 .icon {
-    width: 8rem;
-    height: 8rem;
+  width: 8rem;
+  height: 8rem;
 }
 
 .icon-card {
-    background-color: #fff;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
-    padding: 20px;
-    margin: 10px;
-  }
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+.project-box {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+.project-box p {
+  padding: 0.4rem;
+}
+
+.projects-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.projects-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.projects-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
