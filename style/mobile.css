@@ -52,3 +52,22 @@
     max-width: 23.75rem;
   }
 }
+@media screen and (max-width: 420px) {
+    .hero img {
+      height: 10rem;
+      width: 8rem;
+    }
+  
+    .bio {
+      width: 16rem;
+    }
+  
+    .more-about {
+      width: 100%;
+      padding: 1rems 2.5rem;
+    }
+  
+    .skills-box{
+      max-width: 100%;
+    }
+  } 
