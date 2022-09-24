@@ -31,10 +31,10 @@
     width: 15rem;
   }
   .bio {
-    width: 100%;
+    width: 85%;
   }
   .more-about {
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     text-align: center;
   }
   .icon {
@@ -59,12 +59,12 @@
     }
   
     .bio {
-      width: 16rem;
+      width: 15rem;
     }
   
     .more-about {
       width: 100%;
-      padding: 1rems 2.5rem;
+      padding: 1rem 2.5rem;
     }
   
     .skills-box{
