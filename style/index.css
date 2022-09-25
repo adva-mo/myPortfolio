@@ -75,7 +75,8 @@ nav ul li {
     width: 15rem;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
     border-radius: 4px;
-    /* transform: translateX(); */
+    transform: translateX(-150%);
+    animation: entrence 0.5s ease-in 0.1s 1 forwards;
   }
   
   .bio {
@@ -83,6 +84,9 @@ nav ul li {
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 10px 2px var(--primary-shadow);
+    transform: translateX(150%);
+    animation: entrence 0.5s ease-in 0.5s 1 forwards;
+
   }
   
   .bio h2 {

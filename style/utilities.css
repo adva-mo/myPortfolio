@@ -76,7 +76,11 @@
 
    /* hero section animation */
 
-
+@keyframes entrence {
+  to{
+    transform: translateX(0);
+  }
+}
 
 /* skills tooltips  */
 
