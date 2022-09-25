@@ -115,6 +115,15 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.4rem;
   }
+  .cv-btn {
+    border: var(--secondary-color) solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    /* height: 2rem; */
+    padding: 0.5rem 0;
+  }
   .skills {
     max-width: 68.75rem;
     margin: auto;
