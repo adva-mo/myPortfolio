@@ -1,12 +1,13 @@
 /* <----- tablets -----> */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   nav {
     padding: 1rem 0.5rem;
   }
   nav >ul {
     transform: translateX(120%);
     transition: transform 0.2s ease-in;
+    visibility: hidden;
   }
 .menu-wrap ul{
   flex-direction: column;
@@ -35,6 +36,9 @@
   .more-about {
     padding: 1rem 2rem;
     text-align: center;
+  }
+  .more-about p{
+    font-size:smaller;
   }
   .icon {
     width: 5.875rem;
