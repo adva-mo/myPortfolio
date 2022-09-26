@@ -7,8 +7,10 @@
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="/style/normalize.css" />
+    <!-- <link rel="stylesheet" href="/style/hmburger.css"> -->
     <link rel="stylesheet" href="/style/utilities.css" />
     <link rel="stylesheet" href="/style/index.css" />
+    <link rel="stylesheet" href="/style/hmburger.css">
     <link rel="stylesheet" href="/style/mobile.css" />
 
     <!-- Animate CSS CDN -->
@@ -25,17 +27,32 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <h1>Adva Mozes</h1>
+      <h2>Adva Mozes</h2>
+      </h3>
       <ul class="navigation" id="navigation">
         <li><a href="#aboutme" class="nav-link">About me</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact me</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
-        <a href="#navigation"><img src="/photos/icons8-menu-64.png" alt="" height="18px"  width="18px"></a>
-      </button>
-    </nav>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul class="navigation" id="navigation">
+                <li><a href="#aboutme" class="nav-link">About me</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact me</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    </nav> 
 
     <!-- Hero Section -->
     <section class="hero" id="aboutme">

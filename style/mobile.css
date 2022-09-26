@@ -4,23 +4,22 @@
   nav {
     padding: 1rem 0.5rem;
   }
-  nav ul {
-    position: fixed;
-    background-color: var(--bg-color);
-    flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
-    text-align: center;
+  nav >ul {
     transform: translateX(120%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.2s ease-in;
   }
-
-  nav ul li {
+.menu-wrap ul{
+  flex-direction: column;
+}
+  /* nav ul li {
     margin: 8px;
+  } */
+  .menu-wrap {
+    visibility:visible;
   }
-  .burger-menu {
-    display: block;
+  .menu-wrap .menu {
+    visibility: visible;
+    overflow: visible;
   }
   .hero {
     flex-direction: column;

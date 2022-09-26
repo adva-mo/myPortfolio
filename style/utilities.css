@@ -15,17 +15,17 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
   --color: #5b5a5a;
-  /* color: var(--color); */
+  --hamburger-bg: rgba(214,211,211,0.85)
 }
 
-.burger-menu {
+/* .burger-menu {
   color: var(--primary-color);
   font-size: 2rem;
   border: 0;
   background-color: transparent;
   cursor: pointer;
   display: none;
-}
+} */
 
 .icon {
   width: 8rem;
