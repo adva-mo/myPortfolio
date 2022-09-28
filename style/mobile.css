@@ -4,19 +4,17 @@
   nav {
     padding: 1rem 0.5rem;
   }
-  nav >ul {
+  nav > ul {
     transform: translateX(120%);
     transition: transform 0.2s ease-in;
     visibility: hidden;
   }
-.menu-wrap ul{
-  flex-direction: column;
-}
-  /* nav ul li {
-    margin: 8px;
-  } */
+  .menu-wrap ul {
+    flex-direction: column;
+  }
+
   .menu-wrap {
-    visibility:visible;
+    visibility: visible;
   }
   .menu-wrap .menu {
     visibility: visible;
@@ -27,7 +25,7 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-  } 
+  }
   .hero img {
     height: 13rem;
     width: 15rem;
@@ -38,10 +36,9 @@
   .more-about {
     padding: 0.5rem 2rem;
     text-align: center;
-    
   }
-  .more-about p{
-    font-size:smaller;
+  .more-about p {
+    font-size: smaller;
   }
   .icon {
     width: 5.875rem;
@@ -59,21 +56,30 @@
   }
 }
 @media screen and (max-width: 420px) {
-    .hero img {
-      height: 10rem;
-      width: 8rem;
-    }
-  
-    .bio {
-      width: 15rem;
-    }
-  
-    .more-about {
-      width: 100%;
-      padding: 1rem 2.5rem;
-    }
-  
-    .skills-box{
-      max-width: 100%;
-    }
-  } 
+  .hero img {
+    height: 10rem;
+    width: 8rem;
+  }
+  nav > h2 {
+    font-size: 12px;
+    width: 30%;
+    /* display: inline-block; */
+  }
+  .bio {
+    width: 90%;
+  }
+  .bio-title {
+    font-size: 10px;
+  }
+  .more-about {
+    width: 100%;
+    padding: 1rem 2.5rem;
+  }
+  .more-about p {
+    line-height: 2rem;
+  }
+
+  .skills-box {
+    max-width: 100%;
+  }
+}
