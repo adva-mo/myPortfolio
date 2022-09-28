@@ -73,10 +73,11 @@
   }
   .more-about {
     width: 100%;
-    padding: 1rem 2.5rem;
+    padding: 1rem 1.5rem;
   }
   .more-about p {
     line-height: 2rem;
+    width: 100%;
   }
 
   .skills-box {
